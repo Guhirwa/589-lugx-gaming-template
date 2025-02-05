@@ -3,61 +3,202 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link rel="stylesheet" href="./styles.css">-->
-    <title>589-LUGX-GAMING-TEMPLATE</title>
-    <link rel="stylesheet" href="./output.css">
-</head> 
-<body>  
-    <section class="home-page">  
-        <div class="header flex justify-center p-4 bg-blue-600 text-white items-center gap-16 rounded-left-down">  
-            <img src="../images/logo.png" alt="">  
-            <div class="header-tabs flex ml-48 gap-12">  
-                <a href="#" class="bg-gray-300 p-2 px-4 rounded-full mt-neg">Home</a>  
-                <a href="#" class="bg-gray-300 p-2 px-4 rounded-full mt-neg">Our Shop</a>  
-                <a href="#" class="bg-gray-300 p-2 px-4 rounded-full mt-neg">Product Details</a>  
-                <a href="#" class="bg-gray-300 p-2 px-4 rounded-full mt-neg">Contact Us</a>  
-                <a href="#"><button class="special-button bg-red-500 p-2 px-4 rounded-full font-bold mt-neg">SIGNIN</button></a>  
-            </div>  
-        </div>  
-
-        <div class="landing-page">  
-            <div class="descrp">  
-                <h6 class="simple-text">WELCOME TO LUGX</h6>  
-                <h1 class="big-text">BEST GAMING SITE <br> EVER!</h1>  
-                <p class="paragraph">LUGX Gaming is a free Bootstrap 5 HTML CSS website template for your gaming <br>  
-                   websites. You can download and use this layout for commercial purposes. <br>   
-                   Please tell your friends about TemplateMo.  
-                </p>  
-                <input class="input-holder" type="text" placeholder="Type Something">  
-                <button class="search-button">SEARCH NOW</button>  
-            </div>  
-            <div class="home-img">  
-                <span class="price-span">$22</span>  
-                <img class="banner-image" src="../images/banner-image.jpg" alt="">  
-                <span class="discount-perc">-40%</span>  
-            </div>  
-        </div>  
-    </section>  
-    <div class="cards">
-        <div class="card-item">
-            <img src="/589-lugx-gaming-template/images/stotage.png" alt="" class="card-img">
-            <p class="card-desc">FREE STORAGE</p>
+    <title>Live View Page - 589 lugx gaming</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=local_mall" />
+    <link rel="stylesheet" href="/src/tailwind.css">
+</head>
+<body>
+    <section class="home-section">
+        <header class="header">
+            <img class="logo" src="/images/logo.png" alt="">
+            <div class="header-links">
+                <a href="#" class="header-link">Home</a>
+                <a href="#" class="header-link">Our Shop</a>
+                <a href="#" class="header-link">Product Details</a>
+                <a href="#" class="header-link">Contact Us</a>
+                <a href="#" class="header-link signin-button">SIGN IN</a>
+            </div>
+        </header>
+        <div class="landing-page">
+            <div class="landing-page-desc"> 
+                <h6 class="head normal-font">WELCOME TO LUGX</h6>
+                <h1 class="big-font bold">BEST GAMING SITE <br> EVER!</h1>
+                <p class="paragraph">
+                    LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming <br>
+                    websites. You can download and use this layout for commercial purposes. <br>
+                    Please tell your friends about TemplateMo.
+                </p>
+                <input class="search-input" type="text" placeholder="Type Something">
+                <button class="search-button">SEARCH NOW</button>
+            </div>
+            <div>
+                <p class="banner-span1">$22</p>
+                <img class="banner-image" src="/images/banner-image.jpg" alt="Banner Image">
+                <p class="banner-span2">-40%</p>
+            </div>
         </div>
-
+    </section>
+    <section class="cards">
         <div class="card-item">
-            <img src="/589-lugx-gaming-template/images/user.png" alt="" class="card-img">
-            <p class="card-desc">USER MORE</p>
+            <div class="image-holder">
+                <img class="card-image" src="/images/storage.png" alt="FREE STORAGE">
+            </div>
+            <p class="card-image-desc">FREE STORAGE</p>
         </div>
-
         <div class="card-item">
-            <img src="/589-lugx-gaming-template/images/ready use.png" alt="" class="card-img">
-            <p class="card-desc">REPLY READY</p>
+            <div class="image-holder">
+                <img class="card-image" src="/images/user.png" alt="USER MORE">
+            </div>
+            <p class="card-image-desc">USER MORE</p>
         </div>
-
         <div class="card-item">
-            <img src="/589-lugx-gaming-template/images/Layout.png" alt="" class="card-img">
-            <p class="card-desc">EASY LAYOUT</p>
+            <div class="image-holder">
+                <img class="card-image" src="/images/reply.png" alt="REPLY READY">
+            </div>
+            <p class="card-image-desc">REPLY READY</p>
         </div>
-    </div>
-</body>  
+        <div class="card-item">
+            <div class="image-holder">
+                <img class="card-image" src="/images/layout.png" alt="EASY LAYOUT">
+            </div>
+            <p class="card-image-desc">EASY LAYOUT</p>
+        </div>
+    </section>
+    <section class="advertisement">
+        <div class="adv-container">
+            <div class="adv">
+                <div class="adv-upper-desc">
+                    <h4 class="adv-title">TRENDING</h4>
+                    <h1 class="adv-desc">Trending Games</h1>
+                    <button class="adv-button">VIEW ALL</button>
+                </div>
+                <div class="adv-items">
+                    <div class="adv-item">
+                        <img src="/images/trending-01.jpg" alt="" class="adv-item-image">
+                        <p class="adv-item-image-span">$20</p>
+                        <p class="adv-item-image-type">Action</p>
+                        <h6 class="adv-item-image-genDesc">Assasin Creed</h6>
+                    </div>
+                    <div class="adv-item">
+                        <img src="/images/trending-02.jpg" alt="" class="adv-item-image">
+                        <p class="adv-item-image-span">$44</p>
+                        <p class="adv-item-image-type">Action</p>
+                        <h6 class="adv-item-image-genDesc">Assasin Creed</h6>
+                    </div>
+                    <div class="adv-item">
+                        <img src="/images/trending-03.jpg" alt="" class="adv-item-image">
+                        <p class="adv-item-image-span">$44</p>
+                        <p class="adv-item-image-type">Action</p>
+                        <h6 class="adv-item-image-genDesc">Assasin Creed</h6>
+                    </div>
+                    <div class="adv-item">
+                        <img src="/images/trending-04.jpg" alt="" class="adv-item-image">
+                        <p class="adv-item-image-span">$32</p>
+                        <p class="adv-item-image-type">Action</p>
+                        <h6 class="adv-item-image-genDesc">Assasin Creed</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="top-games">
+        <div class="top-container">
+            <div class="top">
+                <div class="adv-upper-desc">
+                    <h4 class="adv-title">TOP GAMES</h4>
+                    <h1 class="adv-desc">Trending Games</h1>
+                    <button class="adv-button">VIEW ALL</button>
+                </div>
+                <div class="top-items">
+                    <div class="top-item">
+                        <img src="/images/top-game-01.jpg" alt="" class="top-item-image">
+                        <p class="top-item-image-type">Adventure</p>
+                        <h6 class="top-item-image-genDesc">Assasin Creed</h6>
+                        <button class="top-item-image-genDesc-button">EXPLORE</button>
+                    </div>
+                    <div class="top-item">
+                        <img src="/images/top-game-02.jpg" alt="" class="top-item-image">
+                        <p class="top-item-image-type">Adventure</p>
+                        <h6 class="top-item-image-genDesc">Assasin Creed</h6>
+                        <button class="top-item-image-genDesc-button">EXPLORE</button>
+                    </div>
+                    <div class="top-item">
+                        <img src="/images/top-game-03.jpg" alt="" class="top-item-image">
+                        <p class="top-item-image-type">Adventure</p>
+                        <h6 class="top-item-image-genDesc">Assasin Creed</h6>
+                        <button class="top-item-image-genDesc-button">EXPLORE</button>
+                    </div>
+                    <div class="top-item">
+                        <img src="/images/top-game-04.jpg" alt="" class="top-item-image">
+                        <p class="top-item-image-type">Adventure</p>
+                        <h6 class="top-item-image-genDesc">Assasin Creed</h6>
+                        <button class="top-item-image-genDesc-button">EXPLORE</button>
+                    </div>
+                    <div class="top-item">
+                        <img src="/images/top-game-05.jpg" alt="" class="top-item-image">
+                        <p class="top-item-image-type">Adventure</p>
+                        <h6 class="top-item-image-genDesc">Assasin Creed</h6>
+                        <button class="top-item-image-genDesc-button">EXPLORE</button>
+                    </div>
+                    <div class="top-item">
+                        <img src="/images/top-game-06.jpg" alt="" class="top-item-image">
+                        <p class="top-item-image-type">Adventure</p>
+                        <h6 class="top-item-image-genDesc">Assasin Creed</h6>
+                        <button class="top-item-image-genDesc-button">EXPLORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="top-categories">
+        <div class="cat-container">
+            <div class="cat">
+                <div class="cat-upper-desc">
+                    <h4 class="cat-title">CATEGORIES</h4>
+                    <h1 class="cat-desc">Top Categories</h1>
+                </div>
+                <div class="cat-items">
+                    <div class="cat-item">
+                        <p class="cat-item-image-type">Action</p>
+                        <img src="/images/categories-01.jpg" alt="" class="cat-item-image">
+                    </div>
+                    <div class="cat-item">
+                        <p class="cat-item-image-type">Action</p>
+                        <img src="/images/categories-05.jpg" alt="" class="cat-item-image">
+                    </div>
+                    <div class="cat-item">
+                        <p class="cat-item-image-type">Action</p>
+                        <img src="/images/categories-03.jpg" alt="" class="cat-item-image">
+                    </div>
+                    <div class="cat-item">
+                        <p class="cat-item-image-type">Action</p>
+                        <img src="/images/categories-04.jpg" alt="" class="cat-item-image">
+                    </div>
+                    <div class="cat-item">
+                        <p class="cat-item-image-type">Action</p>
+                        <img src="/images/categories-05.jpg" alt="" class="cat-item-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="subscribe">
+        <img class="subscribe-image" src="/images/banner-image.jpg" alt="">
+        <div class="shop-now">
+            <h4 class="shop-title">OUR SHOP</h4>
+            <h1 class="shop-title-big">Go Pre-Order <br> Buy & Get <br> Best <span class="show-span">Prices</span> <br> For You!</h1>
+            <p class="shop-desc">Lorem ipsum dolor consectetur <br> adipiscing, sed do eiusmod tempor <br> incididunt.</p>
+            <button class="shop-button">SHOP NOW</button>
+        </div>
+        <div class="subscribe-now">
+            <h4 class="shop-title">NEWSLETTER</h4>
+            <h1 class="shop-title-big">Get Up To $100 Off <br> Just Buy <br> <span class="subscribe-span">Subscribe</span> <br> Newsletter!</h1>
+            <input type="text" class="subscribe-input" placeholder="You email...">
+            <button class="shop-button subscribe-button">SUBSCRIBE NOW</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Copyright © 2048 LUGX Gaming Company. All rights reserved.    Design: TemplateMo</p>
+    </footer>
+</body>
 </html>
